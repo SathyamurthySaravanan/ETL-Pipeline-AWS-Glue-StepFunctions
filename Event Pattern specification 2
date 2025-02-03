@@ -1,0 +1,16 @@
+{
+  "source": ["aws.s3"],
+  "detail-type": ["Object Created"],
+  "detail": {
+    "bucket": {
+      "name": ["sample_workflow_orchestration"]
+    },
+    "object":{
+      "key": [
+        {
+          "prefix": "raw/"
+        }
+      ]
+    }
+  }
+}
